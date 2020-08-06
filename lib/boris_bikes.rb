@@ -1,7 +1,9 @@
 # an object that can take in, and give out bikes to people.
 class DockingStation
 	DEFAULT_CAPACITY = 20
-	def initialize
+	attr_reader :capacity
+	def initialize(capacity= DEFAULT_CAPACITY)
+		@capacity = capacity
 		@available_bikes = []
 	end
 	#releases bikes
