@@ -15,12 +15,12 @@ Rspec
 
 ## Installation ##
 
--clone this repository
--cd into the directory
--run irb in the console
--type require '.lib/boris_bikes'
--create a docking station by typing docking station = New DockingStation
--add or remove bikes at your will
+- clone this repository
+- cd into the directory
+- run irb in the console
+- type require '.lib/boris_bikes'
+- create a docking station by typing docking station = New DockingStation
+- add or remove bikes at your will
 
 ## Tests ##
 
